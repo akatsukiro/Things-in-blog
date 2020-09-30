@@ -5,7 +5,7 @@ var pointerX=0
 var pointerY=0
 var tap='mousedown'
 var colors=['#FF1461','#18FF92','#5A87FF','#FBF38C']
-var setCanvasSize=debounce(function(){canvasEl.width=window.innerWidth
+var setCanvasSize=btf.debounce(function(){canvasEl.width=window.innerWidth
 canvasEl.height=window.innerHeight
 canvasEl.style.width=window.innerWidth+'px'
 canvasEl.style.height=window.innerHeight+'px'
